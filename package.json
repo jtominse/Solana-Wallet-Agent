@@ -1,0 +1,28 @@
+{
+  "name": "solana-wallet-agent",
+  "version": "0.1.0",
+  "description": "Solana on-chain intelligence agent using Helius RPC + MiMo LLM reasoning pipeline",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "register-webhook": "node scripts/register-webhook.js"
+  },
+  "keywords": [
+    "solana",
+    "helius",
+    "agent",
+    "defi",
+    "on-chain-intelligence",
+    "mimo",
+    "llm"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
