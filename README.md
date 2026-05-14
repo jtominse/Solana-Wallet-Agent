@@ -49,7 +49,7 @@ Each step passes **structured JSON** to the next agent, ensuring clean input and
 ### 1. Clone & install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/solana-wallet-agent.git
+git clone https://github.com/jtominse/solana-wallet-agent.git
 cd solana-wallet-agent
 npm install
 ```
@@ -61,7 +61,9 @@ cp .env.example .env
 # Edit .env — set HELIUS_API_KEY + LLM_BASE_URL + LLM_API_KEY + LLM_MODEL
 ```
 
-**Supported LLM providers (just change 3 vars):**
+**Supported Any LLM providers (just change 3 vars):**
+
+**Example**
 
 | Provider | LLM_BASE_URL | LLM_MODEL |
 |---|---|---|
